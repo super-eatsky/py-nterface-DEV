@@ -57,4 +57,4 @@ receipt = substrate.submit_extrinsic(extrinsic, wait_for_inclusion=True)
 
 print(f"Extrinsic '{receipt.extrinsic_hash}' sent and included in block '{receipt.block_hash}'")
 ```
-
+End
