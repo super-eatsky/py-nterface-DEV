@@ -58,10 +58,3 @@ receipt = substrate.submit_extrinsic(extrinsic, wait_for_inclusion=True)
 print(f"Extrinsic '{receipt.extrinsic_hash}' sent and included in block '{receipt.block_hash}'")
 ```
 
-## Contact and Support 
-
-For questions, please see the [Substrate StackExchange](https://substrate.stackexchange.com/questions/tagged/python), [Github Discussions](https://github.com/polkascan/py-substrate-interface/discussions) or 
-reach out to us on our [matrix](http://matrix.org) chat group: [Polkascan Technical](https://matrix.to/#/#polkascan:matrix.org).
-
-## License
-https://github.com/polkascan/py-substrate-interface/blob/master/LICENSE
